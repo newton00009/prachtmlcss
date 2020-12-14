@@ -1,0 +1,32 @@
+body
+{
+   
+}
+.container
+{
+   
+    height: 300px;
+    width: 200px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
+.container img
+{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    opacity: .9;
+    transition: all;
+    transition-duration: .1s;
+    transition-delay: .1s;
+}
+
+.container img:hover
+{
+    height: 305px;
+    width: 205px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
